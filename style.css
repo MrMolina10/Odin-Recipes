@@ -1,0 +1,40 @@
+body{
+    background-color: #9b89b3;
+}
+h1{
+    font-size: 45px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 320px;
+    width: 450px;
+    
+}
+
+.header__photo{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes__list{
+    height: 200px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

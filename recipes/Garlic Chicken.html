@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recipes.css">
+    <script src="https://kit.fontawesome.com/03ea6d511a.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Garlic Chicken Fried Chicken</h1>
+    <div class="left__arrow">
+        <a onclick="showAlert()" href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+    <div class="main__title">
+        <h1>Garlic Chicken Fried Chicken</h1>
+    </div>
     <img src="" alt="">
-    <h3>Description</h3>
-    <p></p>
-    <h3>Ingredients</h3>
-    <ul>
+    <div class="description__section">
+        <h3 class="header">Description</h3>
+        <p class="description__para"></p>
+    </div>
+    <div class="ingredi__section">
+    <h3 class="sub__title">Ingredients</h3>
+    <ul class="ingredi">
         <li>2 teaspoons garlic powder, or to taste</li>
         <li>1 teaspoon ground black pepper</li>
         <li>1 teaspoon salt</li>
@@ -24,12 +34,18 @@
         <li>4 skinless, boneless chicken breast halves - pounded thin</li>
         <li>1 cup oil for frying, or as needed</li>
     </ul>
-    <h3>Steps</h3>
-    <ol>
-        <li>In a shallow dish, mix together the garlic powder, pepper, salt, paprika, bread crumbs and flour. In a separate dish, whisk together the milk and egg.</li>
-        <li>Heat the oil in an electric skillet set to 350 degrees F (175 degrees C). Dip the chicken into the egg and milk, then dredge in the dry ingredients until evenly coated.</li>
-        <li>Fry chicken in the hot oil for about 5 minutes per side, or until the chicken is cooked through and juices run clear. Remove from the oil with a slotted spatula, and serve.</li>
-    </ol>
-    <a href="../index.html">Return to Main Page</a>
+    </div>
+    <div class="step__section">
+        <h3>Steps</h3>
+        <ol>
+            <li class="step__list">In a shallow dish, mix together the garlic powder, pepper, salt, paprika, bread crumbs and flour. In a separate dish, whisk together the milk and egg.</li>
+            <li class="step__list">Heat the oil in an electric skillet set to 350 degrees F (175 degrees C). Dip the chicken into the egg and milk, then dredge in the dry ingredients until evenly coated.</li>
+            <li class="step__list">Fry chicken in the hot oil for about 5 minutes per side, or until the chicken is cooked through and juices run clear. Remove from the oil with a slotted spatula, and serve.</li>
+        </ol>
+    </div>
+    <div class="station__button">
+        <a class="return__button" href="../index.html">Return to Main Page</a>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>

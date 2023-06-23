@@ -8,7 +8,7 @@ li{
 ol{
     display: flex;
 }
-.burger__title{
+.main__title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,9 +60,7 @@ ol{
 }
 
 .station__button{
-    height: 13%;
     width: 100%;
-    position: fixed;
     display: flex;
     align-items: flex-end;
 }

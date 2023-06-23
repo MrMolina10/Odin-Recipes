@@ -8,20 +8,24 @@
     <script src="https://kit.fontawesome.com/03ea6d511a.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
-<body>
+<body id="background">
     <div class="left__arrow">
         <a onclick="showAlert()" href="../index.html"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
+    <div class="container">
     <div class="main__title">
-        <a href="https://www.allrecipes.com/recipe/19863/best-burger-ever/"><h1 onclick="myFunction()" class="title">Best Burger</h1></a>
+        <a onclick="myFunction()" href="https://www.allrecipes.com/recipe/19863/best-burger-ever/"><h1 onclick="myFunction()" class="title">Best Burger</h1></a>
+        <button id="changeColor"><i class="fa-solid fa-palette"></i></button>
     </div>
-    <img src="" alt="">
+    <div class="image">
+        <img src="./Best Burger Pic.webp" alt="">
+    </div>
     <div class="description__section">
         <h3 class="header">Description</h3>
         <p class="description__para">Beef is delicious on its own – it is a high-quality protein that is tender, juicy and full of natural flavor. You don’t need a bunch of mix-ins, or you’re just masking the flavor of the beef. Remember it’s not a meatloaf, but a burger. If you want to change up the flavor, do that with the amazing burger sauces below (you’ll want to try these!) and toppings.</p>
     </div>
     <div class="ingredi__section">
-        <h3 class="sub__title">Ingredients</h3>
+        <h3 class="header">Ingredients</h3>
             <ul class="ingredi">
                 <li>2 pounds extra-lean ground beef</li>
                 <li>1 (1 ounce) package dry onion soup mix</li>
@@ -34,12 +38,13 @@
     </div>
     <div class="step__section">
         <h3>Steps</h3>
-            <ol>
+            <ol class="list__section">
                 <li class="step__list">Preheat an outdoor grill for medium high heat and lightly oil grate.</li>
                 <li class="step__list">In a large bowl, combine the beef, onion soup mix, egg, hot sauce and oats. Shape into 6 patties.</li>
                 <li class="step__list">Grill patties over medium high heat for 10 to 20 minutes, or to desired doneness.</li>
             </ol>
     </div>
+</div>
     <div class="station__button">
         <a class="return__button" href="../index.html">Return to Main Page</a>
     </div>

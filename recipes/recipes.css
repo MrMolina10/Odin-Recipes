@@ -1,3 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #e2e2e2;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 a{
     color: black;
 }
@@ -8,15 +22,28 @@ li{
 ol{
     display: flex;
 }
+.title{
+    margin-right: 15px;
+}
+.fa-solid{
+    font-size: 30px;
+}
 .main__title{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 15px;
 }
 .left__arrow{
     margin-left: 20px;
     padding-top: 20px;
     font-size: 25px;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .description__section{
@@ -31,6 +58,7 @@ ol{
 
 .header{
     align-self: center;
+    margin-bottom: 15px;
 }
 
 .ingredi__section{
@@ -38,6 +66,7 @@ ol{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .ingredi{
@@ -55,6 +84,10 @@ ol{
     margin: 20px;
 }
 
+.list__section{
+    margin: 15px;
+}
+
 .step__list{
     margin-right: 25px;
 }
@@ -63,6 +96,7 @@ ol{
     width: 100%;
     display: flex;
     align-items: flex-end;
+    margin: 15px;
 }
 
 .return__button{
